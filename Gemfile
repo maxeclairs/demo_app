@@ -10,7 +10,7 @@ gem 'sqlite3'  , '1.3.7'
 gem 'sass-rails', '4.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 2.1.1'
+gem 'uglifier' , '2.1.1'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '4.0.0'
@@ -32,6 +32,7 @@ group :doc do
   gem 'sdoc', '0.3.20' , require: false
 end
 
+gem 'execjs', '1.2.4'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
